@@ -19,4 +19,4 @@ jobs:
             cd /var/www/html/a4.-deployingalaravelapponvps
             git pull
             npm run build
-            sudo reload
+            sudo service php8.3-fpm reload
